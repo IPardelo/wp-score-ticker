@@ -17,7 +17,6 @@
   const btnNext = wrap.querySelector(".ticker-nav--next");
 
   const AUTO_PX_PER_SEC = 28;
-  const MANUAL_STEP = 96;
   let segmentWidth = 0;
   let position = 0;
   let raf = 0;
@@ -106,6 +105,12 @@
       : 0;
   }
 
+  function cardStepPx() {
+    const card = track.querySelector(".ticker-set .ticker-card");
+    if (!card) return 0;
+    return Math.round(card.getBoundingClientRect().width * 100) / 100;
+  }
+
   function wrapPosition() {
     if (segmentWidth <= 0) return;
     while (position <= -segmentWidth) {
@@ -183,12 +188,16 @@
   });
 
   btnPrev.addEventListener("click", function () {
-    position += MANUAL_STEP;
+    const step = cardStepPx();
+    if (step <= 0) return;
+    position += step;
     wrapPosition();
     track.style.transform = "translateX(" + position + "px)";
   });
   btnNext.addEventListener("click", function () {
-    position -= MANUAL_STEP;
+    const step = cardStepPx();
+    if (step <= 0) return;
+    position -= step;
     wrapPosition();
     track.style.transform = "translateX(" + position + "px)";
   });

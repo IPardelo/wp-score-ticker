@@ -93,9 +93,6 @@ msgstr "Data non válida."
 msgid "Anterior"
 msgstr "Anterior"
 
-msgid "Cargando resultados…"
-msgstr "Cargando resultados…"
-
 msgid "Siguiente"
 msgstr "Seguinte"
 

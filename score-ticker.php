@@ -102,7 +102,7 @@ function score_ticker_shortcode() {
   <button type="button" class="ticker-nav ticker-nav--prev" aria-label="<?php echo esc_attr__('Anterior', 'score-ticker'); ?>">&#8249;</button>
   <div class="ticker-viewport" id="tickerViewport">
     <div class="ticker-track" id="tickerTrack" hidden></div>
-    <div class="ticker-empty" id="tickerPlaceholder"><?php echo esc_html__('Cargando resultados…', 'score-ticker'); ?></div>
+    <div class="ticker-empty" id="tickerPlaceholder" hidden></div>
   </div>
   <button type="button" class="ticker-nav ticker-nav--next" aria-label="<?php echo esc_attr__('Siguiente', 'score-ticker'); ?>">&#8250;</button>
 </div>

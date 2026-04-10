@@ -118,10 +118,6 @@ msgid "Anterior"
 msgstr ""
 
 #: score-ticker.php
-msgid "Cargando resultados…"
-msgstr ""
-
-#: score-ticker.php
 msgid "Siguiente"
 msgstr ""
 
