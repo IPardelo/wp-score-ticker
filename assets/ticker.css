@@ -1,0 +1,129 @@
+:root .score-ticker-wrap--wp {
+  --ticker-bg: #2b2b2b;
+  --ticker-header: #1a1a1a;
+  --ticker-nav: #151515;
+  --ticker-border: #3a3a3a;
+  --ticker-text: #ffffff;
+}
+
+.score-ticker-wrap--wp {
+  flex: 1 1 auto;
+  min-width: 0;
+  display: flex;
+  align-items: stretch;
+  min-height: 72px;
+  font-family: "Roboto Condensed", system-ui, sans-serif;
+}
+
+.score-ticker-wrap--wp .ticker-nav {
+  flex: 0 0 44px;
+  width: 44px;
+  border: none;
+  background: var(--ticker-nav);
+  color: var(--ticker-text);
+  font-size: 1.35rem;
+  line-height: 1;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.15s;
+}
+
+.score-ticker-wrap--wp .ticker-nav:hover {
+  background: #222;
+}
+
+.score-ticker-wrap--wp .ticker-nav:active {
+  background: #0d0d0d;
+}
+
+.score-ticker-wrap--wp .ticker-viewport {
+  flex: 1 1 auto;
+  min-width: 0;
+  overflow: hidden;
+  background: var(--ticker-bg);
+  position: relative;
+}
+
+.score-ticker-wrap--wp .ticker-track {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 0;
+  width: max-content;
+  will-change: transform;
+}
+
+.score-ticker-wrap--wp .ticker-set {
+  display: flex;
+  flex-shrink: 0;
+  flex-wrap: nowrap;
+}
+
+.score-ticker-wrap--wp .ticker-card {
+  flex: 0 0 auto;
+  width: 112px;
+  border-right: 1px solid var(--ticker-border);
+  display: flex;
+  flex-direction: column;
+  background: var(--ticker-bg);
+}
+
+.score-ticker-wrap--wp .ticker-card__date {
+  background: var(--ticker-header);
+  color: var(--ticker-text);
+  font-size: 11px;
+  font-weight: 400;
+  text-align: center;
+  padding: 6px 6px 5px;
+  letter-spacing: 0.02em;
+}
+
+.score-ticker-wrap--wp .ticker-card__row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 6px 8px;
+  gap: 8px;
+  flex: 1;
+  min-height: 32px;
+}
+
+.score-ticker-wrap--wp .ticker-card__row + .ticker-card__row {
+  padding-top: 2px;
+}
+
+.score-ticker-wrap--wp .ticker-card__team {
+  color: var(--ticker-text);
+  font-size: 15px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 58px;
+}
+
+.score-ticker-wrap--wp .ticker-card__score {
+  color: var(--ticker-text);
+  font-size: 16px;
+  font-weight: 700;
+  margin-left: auto;
+  font-variant-numeric: tabular-nums;
+}
+
+.score-ticker-wrap--wp .ticker-empty,
+.score-ticker-wrap--wp .ticker-error {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  color: #888;
+  font-size: 13px;
+  padding: 0 1rem;
+}
+
+.score-ticker-wrap--wp .ticker-error {
+  color: #c77;
+}

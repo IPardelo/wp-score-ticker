@@ -1,0 +1,109 @@
+# Galician translation for Score Ticker
+# Copyright (C) 2026 Score Ticker contributors
+msgid ""
+msgstr ""
+"Project-Id-Version: Score Ticker 1.1.0\n"
+"Report-Msgid-Bugs-To:\n"
+"POT-Creation-Date: 2026-04-10T12:00:00+00:00\n"
+"PO-Revision-Date: 2026-04-10 12:00+0000\n"
+"Last-Translator:\n"
+"Language-Team: Galego\n"
+"Language: gl_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Manual\n"
+
+msgid "Resultados ticker"
+msgstr "Resultados ticker"
+
+msgid "Resultados del ticker"
+msgstr "Resultados do ticker"
+
+msgid "Los datos se guardan en la tabla de tu hosting: %s"
+msgstr "Os datos gárdanse na táboa do teu aloxamento: %s"
+
+msgid "Editar partido"
+msgstr "Editar partido"
+
+msgid "Añadir partido"
+msgstr "Engadir partido"
+
+msgid "Fecha"
+msgstr "Data"
+
+msgid "Equipo 1"
+msgstr "Equipo 1"
+
+msgid "Goles equipo 1"
+msgstr "Goles equipo 1"
+
+msgid "Equipo 2"
+msgstr "Equipo 2"
+
+msgid "Goles equipo 2"
+msgstr "Goles equipo 2"
+
+msgid "Guardar cambios"
+msgstr "Gardar cambios"
+
+msgid "Cancelar edición"
+msgstr "Cancelar edición"
+
+msgid "Partidos registrados"
+msgstr "Partidos rexistrados"
+
+msgid "ID"
+msgstr "ID"
+
+msgid "Partido"
+msgstr "Partido"
+
+msgid "Resultado"
+msgstr "Resultado"
+
+msgid "Acciones"
+msgstr "Accións"
+
+msgid "No hay partidos."
+msgstr "Non hai partidos."
+
+msgid "Editar"
+msgstr "Editar"
+
+msgid "¿Eliminar este partido?"
+msgstr "Eliminar este partido?"
+
+msgid "Eliminar"
+msgstr "Eliminar"
+
+msgid "No tienes permisos."
+msgstr "Non tes permisos."
+
+msgid "Partido guardado."
+msgstr "Partido gardado."
+
+msgid "Partido eliminado."
+msgstr "Partido eliminado."
+
+msgid "Fecha no válida."
+msgstr "Data non válida."
+
+msgid "Anterior"
+msgstr "Anterior"
+
+msgid "Cargando resultados…"
+msgstr "Cargando resultados…"
+
+msgid "Siguiente"
+msgstr "Seguinte"
+
+msgid "No se pudieron cargar los datos."
+msgstr "Non se puideron cargar os datos."
+
+msgid "No hay partidos registrados."
+msgstr "Non hai partidos rexistrados."
+
+msgid "Error de red."
+msgstr "Erro de rede."
